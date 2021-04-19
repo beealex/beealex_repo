@@ -3,3 +3,42 @@ body {
     color: #1E0006;
     font-family: ariel, helvetica, sans-serif;
 }
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Change the bkgd color to #0d0a5c (navy blue) as menu */
+  background-color: #0d0a5c;
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #e8d651 (gold) on hover */
+li.navbar a:hover {
+  background-color: #e8d651;
+  color: black;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #e8d651;
+  color: black;
+}
