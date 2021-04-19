@@ -29,15 +29,3 @@ li.navbar a:hover {
   background-color: #e8d651;
   color: black;
 }
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #e8d651;
-  color: black;
-}
