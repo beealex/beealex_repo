@@ -8,8 +8,8 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* Change the bkgd color to #0d0a5c (navy blue) as menu */
-  background-color: #0d0a5c;
+  /* Change the bkgd color to #b02180 (magenta) as menu */
+  background-color: #b02180;
 }
 
 li.navbar {
@@ -24,8 +24,58 @@ li.navbar a {
   text-decoration: none;
 }
 
-/* Change the link color to #e8d651 (gold) on hover */
+/* Change the link color to #e5b5ff (lilac) on hover */
 li.navbar a:hover {
-  background-color: #e8d651;
+  background-color: #e5b5ff;
   color: black;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.textAnalysis
+{
+    padding: 15px;
+    text-align: left;
+}
+.center {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.portrait
+{
+    float: right;
+width: 40%;
+padding-left: 5%;
+padding-right: 5%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+div.about
+{
+    text-align: left;
+/*letter-spacing: 2px;
+line-height: 1.5;  */
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
