@@ -8,7 +8,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* Change the bkgd color to #b02180 (magenta) as menu */
+/* Change the bkgd color to #b02180 (magenta) as menu */
   background-color: #b02180;
 }
 
@@ -28,6 +28,50 @@ li.navbar a {
 li.navbar a:hover {
   background-color: #e5b5ff;
   color: black;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #e5b5ff (lilac) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #e5b5ff;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*bkgd of dropdown changed to #5D5D5D (gray)*/
+  background-color: #5D5D5D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Change the bkgd color to #b02180 (magenta) as menu */
+.dropdown-content a:hover {
+background-color: #b02180;
+color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
 }
 div.gallery {
   margin: 5px;
@@ -72,8 +116,8 @@ margin-bottom: 2%;
 div.about
 {
     text-align: left;
-/*letter-spacing: 2px;
-line-height: 1.5;  */
+/*letter-spacing: 2px; */
+line-height: 1.5; 
 padding-left: 5%;
 padding-right: 5%;
 padding-top: 1%;
